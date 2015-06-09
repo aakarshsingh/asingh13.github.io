@@ -1,10 +1,10 @@
 body {
-    background-color: #31a691;
+    background-color: crimson;
 }
 blockquote p {
     color: #ffffff;
     font-family: 'Merriweather', serif;
-    font-size: 30px;
+    font-size: 50px;
     font-weight: 300;
     line-height: 40px;
     margin: 0 30px 40px;
@@ -15,9 +15,9 @@ blockquote p {
 p.author {
     color: #217969;
     font-family: 'Helvetica Neue', sans-serif;
-    font-size: 12px;
+    font-size: 15px;
     font-weight: bold;
-    line-height: 12px;
+    line-height: 15px;
     letter-spacing: 3px;
     text-align: center;
     text-shadow: #53b4a2 1px 1px;
