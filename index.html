@@ -6,7 +6,7 @@
     <title>Hello World</title>
 </head>
 <body>
-<div id="first-quote" style="background: #31a691;margin-top: 18%;margin-left: 25%;position: absolute;">
+<div id="first-quote" onload="setbackground()" style="margin-top: 18%;margin-left: 25%;position: absolute;">
     <div class="text-holder">
         <blockquote>
             <p>"Our distractions define us"</p>
@@ -15,4 +15,14 @@
     </div>
 </div>
 </body>
+<script type="text/javascript">
+    function setbackground() {
+        var letters = '0123456789ABCDEF';
+        var color = '#';
+        for (var i = 0; i < 6; i++) {
+            color += letters[Math.floor(Math.random() * 16)];
+        }
+        document.getElementById("first-quote")[0].style.background = color;
+    }
+</script>
 </html>
